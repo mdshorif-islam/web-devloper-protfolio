@@ -7,11 +7,16 @@ body{
     font-family: 'Lato',sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+header{
+    background-color: #FFF8F3;
+}
 /* nav style */
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 .nav-title{
     color: var(--dark-01, #181818);
@@ -38,4 +43,12 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
